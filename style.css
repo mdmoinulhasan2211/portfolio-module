@@ -1,10 +1,12 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    
 }
 .flexible-container{
     display: flex;
     padding-bottom: 140px;
+   
 }
 .web-portfolio{
     width: 50%;
@@ -35,6 +37,7 @@ h2{
 .top-beanner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+   
 }
 .fiverr-button{padding: 10px 100px;
     text-decoration: none;
@@ -57,9 +60,21 @@ h2{
     padding-left: 20px;
     width: 50%;
     border-radius: 10px;
-    border-left: 10px solid #FA735D;
+    border-left: 10px solid #FB6756;
+}
+#item{
+    border-left: 10px solid blue;
 }
 .exp-area{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
+}
+.blue-color{
+    color: peru;
+}
+.white-color{
+    color: grey;
+}
+footer p{
+    text-align: center;
 }
